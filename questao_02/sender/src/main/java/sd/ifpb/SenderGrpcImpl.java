@@ -22,7 +22,7 @@ public class SenderGrpcImpl extends SenderGrpc.SenderImplBase {
     public void sendMessage(MessageGrpc request, StreamObserver<MessageResultGrpc> responseObserver) {
         logger.info("Recebendo do client: " + request.getText());
         ManagedChannel channelReceiver = ManagedChannelBuilder
-                .forAddress("localhost", 2223)
+                .forAddress("server", 2223)
                 .usePlaintext()
                 .build();
 

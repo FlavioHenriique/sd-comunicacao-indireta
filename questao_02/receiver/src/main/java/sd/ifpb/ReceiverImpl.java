@@ -15,7 +15,7 @@ public class ReceiverImpl extends ReceiverGrpc.ReceiverImplBase {
         System.out.println("Recebido do Sender: " + request.getText());
 
         ManagedChannel channel = ManagedChannelBuilder
-                .forAddress("localhost", 2224)
+                .forAddress("server", 2224)
                 .usePlaintext()
                 .build();
 

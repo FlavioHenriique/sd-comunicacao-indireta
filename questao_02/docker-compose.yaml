@@ -12,6 +12,8 @@ services:
       context: .
       dockerfile: client/Dockerfile
     container_name: client
+    depends_on:
+      - server
     networks:
       - net
     links:

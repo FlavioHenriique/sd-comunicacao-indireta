@@ -17,7 +17,7 @@ public class Main {
                 @Override
                 public void run() {
                     ManagedChannel channel = ManagedChannelBuilder
-                            .forAddress("localhost", 2222)
+                            .forAddress("client", 2222)
                             .usePlaintext()
                             .build();
                     SenderGrpc.SenderStub stub = SenderGrpc.newStub(channel);

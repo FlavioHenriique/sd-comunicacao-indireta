@@ -1,8 +1,3 @@
-sd/ifpb/repositories/MessageResultRepository.class
-sd/ifpb/TaskManager.class
-sd/ifpb/SendTask.class
-sd/ifpb/repositories/MessageRepository.class
-sd/ifpb/repositories/SendedMessageRepository.class
+sd/ifpb/SenderGrpcImpl.class
+sd/ifpb/SenderGrpcImpl$1.class
 sd/ifpb/Main.class
-sd/ifpb/SenderImpl.class
-sd/ifpb/GetResultTask.class
